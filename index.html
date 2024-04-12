@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .pricing-box {
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            margin: 20px;
+        }
+
+        .pricing-box:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-text {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .price-text {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pricing-box">
+            <div class="header-text">CSGO EXTERNAL</div>
+            <div class="price-text">1 Time Purchase</div>
+            <div class="price-text">£5</div>
+        </div>
+        <div class="pricing-box">
+            <div class="header-text">PC Tweaks</div>
+            <div class="price-text">$3-6</div>
+        </div>
+    </div>
+</body>
+</html>
